@@ -1,0 +1,71 @@
+:root {
+	--nutmeg:#854632;
+	  --white:#ffffff;
+	  --rose-white:#fff5fa;
+	  --egg-shell:#f3e6d8;
+	  --light-gray:#e4ded8;
+	  --wenge-brown:#5f574e;
+	  --dark-charcoal:#302d2c;
+	--dark-raspberry: #7b284f;
+  }
+  body{
+	background-color:var(--dark-raspberry);
+	font-family: "Acme";
+	padding: 25px
+  }
+  
+  h3 {
+	font-family:"Jersey 10";
+	  font-size:50px;
+	color:var(--wenge-brown)
+  }
+  .food{
+  /*   margin */
+	display: block;
+	padding-top:32px;
+	  width:80%;
+	max-width:500px;
+  border-radius:80px;
+  /*   align-self:center */
+  }
+  .big{
+	display:flex;
+	  flex-direction:column;
+  /*   align-items:center; */
+	background-color:var(--light-gray);
+	border-radius:100px;
+  }
+  .gig{
+	display:flex;
+	justify-content: center;
+  }
+  .hi{
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+  /*   background-color: var(--nutmeg) */
+  }
+  .gh{
+	margin-left:39px;
+	background-color:var(--dark-charcoal);
+	  border-radius:32px
+  }
+  .ingredients{
+	margin-left:39px;
+	  ul li:square;
+  }
+  table,td{
+	border: 2px solid black;
+	border-collapse:collapse;
+  }
+  th,td{
+	padding-right:100px;
+	padding-left:100px;
+	
+  }
+  footer{
+	display:flex;
+	flex-direction:column;
+	align-items:center
+  }
+  
